@@ -108,7 +108,7 @@ p2 {
 
 .bodyHero2 {
   position: absolute;
-  top: 3175px;
+  top: 3150px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -172,7 +172,7 @@ p2 {
 
 .hero-mobile{
   background-image: url(/assets/header.jpg);
-  background-size: 100%;
+  background-size: 105%;
 }
 
 .hero-mobile .row{
@@ -238,7 +238,7 @@ p2 {
   }
 
   .bodyHero1 {
-    top: 1850px;
+    top: 1820px;
     margin: 1em 2em;
     left: 45%;
     transform: translate(-50%, -50%);
@@ -279,7 +279,7 @@ p2 {
   }
 
   .bodyHero2 {
-    top: 4350px;
+    top: 4250px;
   }
 
   .inputRow {
@@ -354,5 +354,9 @@ p2 {
 
   .reserve-img {
     height: 250px;
+  }
+
+  .inputField{
+    width: 45%;
   }
 }
