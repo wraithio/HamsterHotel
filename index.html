@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./style/styles.css" />
   </head>
   <body>
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 m-0">
       <!-- navbar -->
       <header>
         <!-- collapse nav -->
@@ -35,24 +35,24 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
+                    <a class="nav-link active" aria-current="page" href="#overview-mobile"
                       >Overview</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Rooms</a>
+                    <a class="nav-link" href="#rooms-phone">Rooms</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Packages</a>
+                    <a class="nav-link" href="#packages">Packages</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Amenities</a>
+                    <a class="nav-link" href="#amenities-phone">Amenities</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#footer">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link border" href="#">Reserve</a>
+                    <a class="nav-link border" href="#reserve">Reserve</a>
                   </li>
                 </ul>
               </div>
@@ -67,29 +67,29 @@
               <div class="col-5 nav-tabs1">
                 <ul class="nav">
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Overview</a>
+                    <a class="nav-link text-light" href="#overview">Overview</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Rooms</a>
+                    <a class="nav-link text-light" href="#rooms">Rooms</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Packages</a>
+                    <a class="nav-link text-light" href="#packages">Packages</a>
                   </li>
                 </ul>
               </div>
-              <div class="col-2 d-flex justify-content-center">
+              <div class="col-2 p-0 d-flex justify-content-center">
                 <img src="./assets/Logo.png" alt="logo" />
               </div>
               <div class="col-5 nav-tabs2">
                 <ul class="nav">
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Amenities</a>
+                    <a class="nav-link text-light" href="#amenities">Amenities</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Contact</a>
+                    <a class="nav-link text-light" href="#footer">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light border" href="#">Reserve</a>
+                    <a class="nav-link text-light border" href="#reserve">Reserve</a>
                   </li>
                 </ul>
               </div>
@@ -131,12 +131,13 @@
                 src="./assets/hamsterhomejpg.jpg"
                 class="img-fluid homeHamster rounded-start"
                 alt="hamster on a chair eating leaves"
+                id="overview-mobile"
               />
             </div>
             <div class="col-md-8">
               <div class="row">
                 <div class="card-body">
-                  <h5 class="card-title paradise-text pb-2">
+                  <h5 id="overview" class="card-title paradise-text pb-2">
                     Welcome to a hamster's paradise
                   </h5>
                   <p class="card-text">
@@ -171,13 +172,102 @@
         </div>
       </div>
       <!-- room section -->
-      <div class="section d-none d-sm-block">
+      <div class="section d-none d-md-block">
         <img src="./assets/bg2.jpg" alt="header background" class="hero-img" />
         <div class="container bodyHero1">
           <div class="row pb-3">
-            <h1 style="text-align: center">Our Rooms</h1>
+            <h1 style="text-align: center" id="rooms">Our Rooms</h1>
           </div>
           <div class="row justify-content-evenly">
+            <div class="col-md-4 col-sm-4">
+              <div class="card" style="width: 25rem; height: 38rem">
+                <img
+                  src="./assets/room1.jpg"
+                  class="card-img-top"
+                  alt="bed headstand with pillows"
+                />
+                <div class="card-body position-relative">
+                  <h5 class="card-title">Queen Room</h5>
+                  <p class="card-text">
+                    <b>850 SQ FT room with city view</b>
+                  </p>
+                  <ul class="list-styled">
+                    <li>One queen-sized bed</li>
+                    <li>Seed Bar, fireplace and large balcony</li>
+                    <li>Small kitchen with a refrigerator and stove</li>
+                  </ul>
+                  <a
+                    href="#"
+                    class="btn btn-primary position-absolute bottom-0 start-0 m-3"
+                    >Reserve</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="card" style="width: 25rem; height: 38rem">
+                <img
+                  src="./assets/room3.jpg"
+                  class="card-img-top"
+                  alt="bedroom with tv and balcony"
+                />
+                <div class="card-body position-relative">
+                  <h5 class="card-title">King Room</h5>
+                  <p class="card-text">
+                    <b>950 SQ FT room with beach view</b>
+                  </p>
+                  <ul class="list-styled">
+                    <li>One king-sized bed</li>
+                    <li>Seed Bar, fireplace and large balcony</li>
+                    <li>Small kitchen with a refrigerator and stove</li>
+                  </ul>
+                  <a
+                    href="#"
+                    class="btn btn-primary position-absolute bottom-0 start-0 m-3"
+                    >Reserve</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="card" style="width: 25rem; height: 38rem">
+                <img
+                  src="./assets/room2.jpg"
+                  class="card-img-top"
+                  alt="master bedroom"
+                />
+                <div class="card-body position-relative">
+                  <h5 class="card-title">Beach Side Suite</h5>
+                  <p class="card-text">
+                    <b>1500 SQ FT Suite with beach view</b>
+                  </p>
+                  <ul class="list-styled list-styled-small">
+                    <li>One California king-sized bed</li>
+                    <li>Second room with fireplace, hot tub, and balcony</li>
+                    <li>Seed Bar and coffee station</li>
+                    <li>Full kitchen with a refrigerator, stove, and island</li>
+                  </ul>
+
+                  <a
+                    href="#"
+                    class="btn btn-primary position-absolute bottom-0 start-0 m-3"
+                    >Reserve</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- room TABLET -->
+      <div class="section d-none d-sm-block d-md-none">
+        <img src="./assets/bg2.jpg" alt="header background" class="hero-img" />
+        <div class="container-fluid bodyHero1">
+          <div class="row pb-3">
+            <h1 style="text-align: center">Our Rooms</h1>
+          </div>
+          <div class="row rooms-tablet justify-content-evenly">
             <div class="col-md-4 col-sm-4">
               <div class="card" style="width: 25rem; height: 38rem">
                 <img
@@ -263,7 +353,7 @@
       <div class="section d-block d-sm-none">
         <div class="container-fluid room-mobile">
           <div class="row">
-            <h1>Our Rooms</h1>
+            <h1 id="rooms-phone">Our Rooms</h1>
           </div>
           <div class="row">
             <div class="col">
@@ -350,7 +440,7 @@
       <!-- horizontal cards -->
       <div class="container horizontal-card pb-3">
         <div class="row p-3">
-          <h1 style="text-align: center" class="text-dark">Packages</h1>
+          <h1 style="text-align: center" class="text-dark" id="packages">Packages</h1>
         </div>
         <div class="row">
           <div class="card">
@@ -443,7 +533,7 @@
         />
         <div class="container bodyHero2">
           <div class="row pb-3">
-            <h1 style="text-align: center">Amenities</h1>
+            <h1 style="text-align: center" id="amenities">Amenities</h1>
           </div>
           <div class="row">
             <h5 style="text-align: center">
@@ -476,7 +566,7 @@
       <div class="section d-block d-sm-none">
         <div class=" container-fluid amenities-mobile">
           <div class="row">
-            <h1>Amenities</h1>
+            <h1 id="amenities-phone">Amenities</h1>
           </div>
           <div class="row">
             <h5>
@@ -512,7 +602,7 @@
       <div class="container mt-5">
         <div class="card">
           <div class="card-body" style="background-color: rgb(1, 1, 36)">
-            <h1 style="text-align: center">Reserve a Room</h1>
+            <h1 style="text-align: center" id="reserve">Reserve a Room</h1>
             <div class="row d-flex justify-content-evenly inputRow">
               <div class="inputField">
                 <p2>Check-In</p2>
@@ -547,7 +637,7 @@
         </div>
       </div>
       <!-- footer -->
-      <footer>
+      <footer id="footer">
         <div class="container-fluid bg-darkblue text-center footer-format">
           <div class="row justify-content-center">
             <div class="col-4"><img src="./assets/Logo.png" alt="logo" /></div>

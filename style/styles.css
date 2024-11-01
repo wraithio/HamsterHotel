@@ -11,6 +11,11 @@ img {
   object-fit: cover;
 }
 
+.container-fluid {
+  padding: none;
+  margin: none;
+}
+
 .bg-darkblue {
   background-color: rgb(1, 1, 36);
 }
@@ -82,11 +87,6 @@ p2 {
   width: 100%;
 }
 
-.container-fluid {
-  padding: none;
-  margin: none;
-}
-
 .headerHero {
   align-items: center;
   text-align: center;
@@ -125,6 +125,7 @@ p2 {
 .homeHamster {
   width: 400px;
   height: 416px;
+  padding-right: 1em;
 }
 
 .iconformat img {
@@ -136,13 +137,8 @@ p2 {
 }
 
 .list-styled li {
-  padding-bottom: 0.5em;
-  font-size: 1.1em;
-}
-
-.inputField {
-  width: 185px;
-  padding: 0;
+  padding-bottom: 0.8em;
+  font-size: 1.17em;
 }
 
 .amenities-mobile{
@@ -172,7 +168,8 @@ p2 {
 
 .hero-mobile{
   background-image: url(/assets/header.jpg);
-  background-size: 105%;
+  background-size: 100%;
+  
 }
 
 .hero-mobile .row{
@@ -182,6 +179,8 @@ p2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin: 0;
 }
 
 .reservebtn {
@@ -196,6 +195,11 @@ p2 {
   padding-bottom: 3rem;
 }
 
+.inputField {
+  width: 185px;
+  padding: 0;
+}
+
 .reserve-img {
   height: 414px;
 }
@@ -204,6 +208,35 @@ p2 {
   padding-top: 2rem;
   padding-bottom: 4rem;
   margin-top: 4rem;
+}
+
+
+@media screen and (max-width: 993px){
+  .bodyHero1{
+    top: 1600px;
+    left: 40%;
+        }
+
+    .bodyHero1 h1{
+      margin-left: 3em;
+    }
+    .awards img{
+      width: 33%;      
+    }
+  
+  .bodyHero2{
+    top: 3250px;
+  }
+
+  .reservebtn{
+    width: 95%;
+  }
+
+  .inputField{
+    width: 45%;
+  }
+
+
 }
 
 @media screen and (max-width: 767px) {
@@ -232,6 +265,28 @@ p2 {
     font-size: 1em;
   }
 
+.nav-tabs1{
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-tabs2{
+  justify-content: center;
+  align-items: center;
+  padding-right: .5em;
+}
+
+.nav-tabs1 a{
+  font-size: 1.25em;
+  font-weight: 900;
+}
+
+.nav-tabs2 a{
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
   .awards img {
     object-fit: contain;
     width: 33.3%;
@@ -239,14 +294,23 @@ p2 {
 
   .bodyHero1 {
     top: 1820px;
-    margin: 1em 2em;
-    left: 45%;
+    margin: 0;
+    padding: 0;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 115%;
   }
 
+  .bodyHero1 h1{
+    margin: 0px;
+  }
+
   .bodyHero1 .card-body {
     height: 1.15%;
+  }
+
+  .rooms-tablet{
+    margin: 0px 60px;
   }
 
   .paradise-text {
@@ -256,11 +320,12 @@ p2 {
 
   .list-styled li {
     padding-bottom: 0.5em;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    
   }
 
   .list-styled-small {
-    font-size: 0.8em;
+    font-size: .8em;
   }
   .col-md-4 {
     display: flex;
@@ -275,7 +340,7 @@ p2 {
   .horizontal-card .card {
     margin-bottom: 4em;
     padding: 1em 1em;
-    border: 2px solid black;
+    border: 8px outset rgb(0, 0, 0);
   }
 
   .bodyHero2 {
@@ -287,7 +352,7 @@ p2 {
   }
 
   .inputField {
-    width: 80%;
+    width: 40%;
     margin-bottom: 1em;
   }
 
@@ -334,7 +399,7 @@ p2 {
     margin-bottom: 0;
     padding: 0.5rem 1em;
     border: none;
-    border-bottom: 5px solid rgb(22, 14, 61);
+    border-bottom: 8px double rgb(38, 26, 100);
   }
 
   .horizontal-card h1 {
