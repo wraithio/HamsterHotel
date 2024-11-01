@@ -166,6 +166,11 @@ p2 {
   font-size: 2em;
 }
 
+.rooms-tablet .btn{
+  width: 85%;
+  justify-content: start;
+}
+
 .hero-mobile{
   background-image: url(/assets/header.jpg);
   background-size: 100%;
@@ -196,7 +201,7 @@ p2 {
 }
 
 .inputField {
-  width: 185px;
+  width: 18%;
   padding: 0;
 }
 
@@ -344,7 +349,7 @@ p2 {
   }
 
   .bodyHero2 {
-    top: 4250px;
+    top: 4320px;
   }
 
   .inputRow {
@@ -409,6 +414,7 @@ p2 {
   }
 
   .bodyHero2 {
+
     background-image: url(/assets/bg2.jpg);
     padding-bottom: 2em;
   }
